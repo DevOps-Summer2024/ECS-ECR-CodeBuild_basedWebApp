@@ -1,0 +1,15 @@
+# Create a virtual environment
+python -m venv venv
+
+or
+
+python3.9 -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Unix or MacOS:
+source venv/bin/activate
+
+# Install Flask inside the virtual environment
+pip install Flask
